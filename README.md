@@ -1,27 +1,18 @@
-# MyNgApp
+一个基于 angular2 框架的小Demo ,实现功能有:
+1. 添加英雄
+2. 删除英雄
+3. 根据英雄名字搜索英雄
+4. 编辑英雄
+5. 根据路由进行视图的跳转
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
-## Development server
+主要模块: dashboard(仪表盘),hero-detail(英雄详情),heros(英雄列表),search(搜索英雄)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+数据模拟: InMemorDataService(angular的模拟假数据插件)
 
-## Code scaffolding
+http请求: HttpClientModule(angular自身的请求工具)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+启动项目: 
+1. 在根目录执行 `yarn`
+2. yarn start
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
